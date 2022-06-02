@@ -1,0 +1,17 @@
+{
+	"short_name": "Lethal Deal",
+	"name": "Lethal Deal Portfolio Links",
+	"icons": [
+		{
+			"src": "/favicon-192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		}
+	],
+	"start_url": "/",
+	"background_color": "#000",
+	"display": "standalone",
+	"scope": "/",
+	"theme_color": "#7c1e21",
+	"description": "Links to the developers of Lethal Deal"
+}

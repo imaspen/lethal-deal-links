@@ -35,12 +35,12 @@ const ARTISTS: Person[] = [
 
 const PROGRAMMERS: Person[] = [
   {
-    name: "Aspen",
+    name: "Aspen Thompson",
     roles: ["Gameplay Programmer"],
     link: "https://www.imaspen.dev",
   },
   {
-    name: "Wes",
+    name: "Wes Etherington",
     roles: ["Enemy Programmer"],
   },
 ];
@@ -52,7 +52,13 @@ const Home: NextPage = () => {
         <title>Lethal Deal</title>
       </Head>
       <div className={styles.bg}>
-        <Image src={bgImage} alt="Background" layout="fill" objectFit="cover" />
+        <Image
+          src={bgImage}
+          alt="Background"
+          layout="fill"
+          objectFit="cover"
+          priority
+        />
       </div>
       <div className={styles.container}>
         <header>
