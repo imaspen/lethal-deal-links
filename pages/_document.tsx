@@ -31,7 +31,7 @@ export default function Document() {
         />
         <meta
           name="og:description"
-          content="Links to the portfolios of Lethal Deal's development team."
+          content="Links to the portfolios of Lethal Deal&rquo;s development team."
         />
 
         <meta name="twitter:card" content="summary_large_image" />
@@ -40,7 +40,7 @@ export default function Document() {
         <meta name="twitter:title" content="Lethal Deal" />
         <meta
           name="twitter:description"
-          content="Links to the portfolios of Lethal Deal's development team."
+          content="Links to the portfolios of Lethal Deal&rquo;s development team."
         />
         <meta
           name="twitter:image"
