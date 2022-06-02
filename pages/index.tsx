@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
+import Head from "next/head";
 import Image from "next/image";
-import bgImage from "../public/bg.png";
+import bgImage from "../public/bg.jpg";
 import logoImage from "../public/logo.png";
 import styles from "../styles/Home.module.css";
 
@@ -47,19 +48,16 @@ const PROGRAMMERS: Person[] = [
 const Home: NextPage = () => {
   return (
     <div>
+      <Head>
+        <title>Lethal Deal</title>
+      </Head>
       <div className={styles.bg}>
         <Image src={bgImage} alt="Background" layout="fill" objectFit="cover" />
       </div>
       <div className={styles.container}>
         <header>
           <div className={styles.headerLogoContainer}>
-            <Image
-              src={logoImage}
-              alt="Lethal Deal"
-              layout="fill"
-              placeholder="blur"
-              quality={100}
-            />
+            <Image src={logoImage} alt="Lethal Deal" layout="fill" />
           </div>
         </header>
         <main className={styles.column}>
