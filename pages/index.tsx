@@ -15,6 +15,7 @@ const ARTISTS: Person[] = [
   {
     name: "Liam Bradbury",
     roles: ["Visual Effects", "User Interface"],
+    link: "https://www.artstation.com/bradburyprojects",
   },
   {
     name: "Migle Ignotaite",
