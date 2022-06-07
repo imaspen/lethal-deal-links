@@ -43,6 +43,7 @@ const PROGRAMMERS: Person[] = [
   {
     name: "Wes Etherington",
     roles: ["Enemy Programmer"],
+    link: "https://www.linkedin.com/in/george-etherington-6a77a1120/",
   },
 ];
 
@@ -66,6 +67,19 @@ const Home: NextPage = () => {
           <div className={styles.headerLogoContainer}>
             <Image src={logoImage} alt="Lethal Deal" layout="fill" />
           </div>
+          <iframe
+            style={{
+              width: "100%",
+              aspectRatio: "16 / 9",
+              padding: "1rem",
+              paddingBottom: "2rem",
+            }}
+            src="https://www.youtube.com/embed/Ewfw77m6AfA"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
         </header>
         <main className={styles.column}>
           <section>
